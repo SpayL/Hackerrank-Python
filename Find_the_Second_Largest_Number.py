@@ -15,3 +15,9 @@
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
+N = int(input())
+O = input().split(' ')
+P = list(map(int, O))
+Q = set(P)
+R = sorted(list(Q))
+print (R[-2])
