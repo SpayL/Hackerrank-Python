@@ -19,10 +19,10 @@
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
-N = int(raw_input())
+N = int(input())
 results = {}
 for i in range(N):
-    a = raw_input().split(' ')
+    a = input().split(' ')
     results[a[0]] = [float(x) for x in a[1:]]
-student = raw_input()
+student = input()
 print ("%.2f" %(sum(results[student])/len(results[student])))
